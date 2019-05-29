@@ -23,8 +23,8 @@ Run a fragment shader that writes in multiple passes to an FBO and then reads fr
 The program wraps your shader code inside boilerplate containing a
 few additional declarations via uniforms.  The main ones are simple:
 
- * `wpos`: a vec2d with the 2D world coordinates of the point to sample
- * `col`: a vec4 to hold the output colour.
+ * `wpos`: a `vec2d` with the 2D world coordinates of the point to sample
+ * `col`: a `vec4` to hold the output colour.
 
 Your shader should be a function called `main()` that consumes no
 arguments and writes to `col`.
@@ -32,7 +32,7 @@ arguments and writes to `col`.
 The only other things defined are:
  * `tex`: if an FBO is used, it'll be here.
  * `tiletex`: if a texture is loaded via the commandline, it will be available in a sampler called tiletex.
- * `resolution`: an ivec2D telling you the width and height of the framebuffer.
+ * `resolution`: an `ivec2D` telling you the width and height of the framebuffer.
 
 The program depends on GLFW, STB_IMAGE, and GLM.  It's not particularly
 well written, but it could easily be cleaned up and extended.
