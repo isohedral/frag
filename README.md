@@ -1,7 +1,7 @@
 # frag
 A simple 2D fragment shader viewer, inspired by Shadertoy (www.shadertoy.com)
 
-This tool was designed to support one small feature over and above Shadertoy: the ability to navigate a virtual 2D plane interactively, using the mouse.  (This is possible with Shadertoy as well, but it's inconvenient.)
+This tool was designed to support one small feature over and above Shadertoy: the ability to navigate a virtual 2D plane interactively, using the mouse.  (This is possible with Shadertoy as well, but it's inconvenient.)  I used it to explore a number of algorithms for drawing repeating patterns implicitly (i.e., draw a tiling by sampling positions in the plane rather than pushing polygons through the graphics pipeline).
 
 # Launching:
 
